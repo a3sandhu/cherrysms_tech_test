@@ -2,7 +2,8 @@
 #include <stdio.h>
 
 int my_putchar (int ch) {
-    return putchar(ch);
+    write(1, &ch, 1);
+    return 1;
 }
 
 void rowPrinter(int cols, int isTopOrBottom)
