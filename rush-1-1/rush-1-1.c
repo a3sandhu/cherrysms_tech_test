@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 int my_putchar (int ch) {
-    return 0;
+    return putchar(ch);
 }
 
 void rowPrinter(int cols, int isTopOrBottom)
@@ -30,6 +30,7 @@ void rowPrinter(int cols, int isTopOrBottom)
             my_putchar(' ');
         }
     }
+    my_putchar('\n');
 }
 
 void rush (int rows, int cols) 
@@ -44,8 +45,4 @@ void rush (int rows, int cols)
         int isTopOrBottom = (curRow == 0 || curRow == rows-1);
         rowPrinter(cols,isTopOrBottom);
     }
-}
-int main() {
-    rush(1,1);
-    return 0;
 }
