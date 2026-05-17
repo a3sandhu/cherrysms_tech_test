@@ -19,6 +19,6 @@
  *   - '|' for side edges
  *   - ' ' for interior space
  */
-void rush(int rows, int cols);
+void rush(int cols, int rows);
 
 #endif

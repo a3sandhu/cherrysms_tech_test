@@ -85,7 +85,7 @@ static void rowPrinter(int cols, int rank, int isOneDimensional)
  * - Handles 1D edge cases
  * - Delegates printing to rowPrinter
  */
-void rush (int rows, int cols) 
+void rush (int cols, int rows) 
 {
     if (rows <= 0 || cols <= 0) 
     {

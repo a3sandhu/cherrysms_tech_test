@@ -60,7 +60,7 @@ static void rowPrinter(int cols, int isTopOrBottom)
  * - Determines whether row is top/bottom or middle
  * - Delegates row printing to rowPrinter
  */
-void rush (int rows, int cols) 
+void rush (int cols, int rows) 
 {
     if (rows <= 0 || cols <= 0) 
     {
