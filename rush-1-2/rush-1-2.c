@@ -5,6 +5,7 @@
  * Prints a bordered rectangle using '/' '\' '*' and spaces.
  */
 
+#include "rush-1-2.h"
 #include <unistd.h>
 
 enum row

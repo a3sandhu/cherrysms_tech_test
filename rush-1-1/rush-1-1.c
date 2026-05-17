@@ -5,6 +5,7 @@
  * Prints a bordered rectangle using 'o' '-' '|' and spaces.
  */
 
+#include "rush-1-1.h"
 #include <unistd.h>
 
 /*

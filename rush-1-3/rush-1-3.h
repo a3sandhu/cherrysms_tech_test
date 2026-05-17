@@ -4,8 +4,8 @@
  * Public interface for ASCII rectangle drawing functions.
  */
 
-#ifndef RUSH_1_2_H
-#define RUSH_1_2_H
+#ifndef RUSH_1_3_H
+#define RUSH_1_3_H
 
 /*
  * Prints an ASCII rectangle to standard output.

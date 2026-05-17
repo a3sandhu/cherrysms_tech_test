@@ -1,10 +1,11 @@
 /*
  * rush-1-3.c
  *
- * Implementation of ASCII rectangle drawing (rush-1-2 version).
+ * Implementation of ASCII rectangle drawing (rush-1-3 version).
  * Prints a bordered rectangle using 'A' 'C' 'B' and spaces.
  */
 
+#include "rush-1-3.h"
 #include <unistd.h>
 
 enum row
